@@ -1,0 +1,7 @@
+<div>Powered by Hugo • Theme by <a href="https://maisuier.com">maisuier</a></div>
+{{ with .Site.Params.beian }}
+<div class="line2">
+    <a href="http://beian.miit.gov.cn/">{{ . }}</a>
+    <span>Copyright {{ now.Year }}. All rights reserved.</span>
+</div>
+{{ end }}

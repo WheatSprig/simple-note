@@ -1,0 +1,22 @@
+{{ define "home" }}
+  {{ with .Content }}
+    {{ . }}
+  {{ else }}
+    <div class="intro-section">
+      <div class="intro-content">
+        <div class="intro-title animate__animated animate__fadeInUp">Hello 😽</div>
+        <div class="intro-sub animate__animated animate__fadeInUp">
+          <p>This is 坊洛</p>
+        </div>
+        <p class="intro-contact animate__animated animate__fadeInUp">
+          <a href="https://github.com/MeowBot233/" target="_blank">
+            <i class="ri-github-line"></i>
+          </a>
+          <a href="mailto:rainbowbedrock@outlook.com" target="_blank">
+            <i class="ri-mail-line"></i>
+          </a>
+        </p>
+      </div>
+    </div>
+  {{ end }}
+{{ end }}
